@@ -1,0 +1,19 @@
+import numpy as np
+
+settimana = [
+giorni = [['Giovedì','Venerdì','Sabato','Domenica','Lunedì','Martedì','Mercoledì']*4,'Giovedì','Venerdì','Sabato']
+
+numeri = []
+for i in range(1,32):
+	numeri.append(i)
+
+for i,j in zip(numeri,giorni):
+	print(i,j)
+
+ottobre = {}
+
+#while i<32:
+#	ottobre[i] = {numeri[i-1] : giorni[i-1]}
+
+#for i in ottobre:
+#	print('{: <10} {:d}'.format(i,ottobre[i]))
